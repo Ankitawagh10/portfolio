@@ -1,0 +1,76 @@
+
+  /*--------------about------*/
+
+ 
+  .image-wrapper{
+   
+    position: relative;
+    animation-name: ex;
+    animation-duration:9s;  
+     animation-duration: 4s;
+  animation-iteration-count: 1;
+    
+  }
+  @keyframes ex {
+    to {right: 0px;}
+    from {right: 200px;}
+
+  }
+    
+
+  .content-wrapper {
+   
+    position: relative;
+    animation-name: example;
+    animation-duration:9s;  
+    
+     animation-duration: 4s;
+  animation-iteration-count:1 ;
+    
+  }
+
+  @keyframes example {
+    to {left: 0px;}
+    from {left: 300px;}
+
+  }
+  
+
+  #box{
+  animation-duration: 5s;
+  animation-name: slidein4;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein4 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+    #ser{
+   
+      animation-duration: 5s;
+      animation-name: slidein3;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidein3 {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    
+    
+  }
+  
